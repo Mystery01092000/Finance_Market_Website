@@ -189,6 +189,9 @@ html {
   margin: auto;
 }
 
+.stock-image {
+  background-color: #2b81e4;
+}
 .logo {
   position: absolute;
   top: 4rem;
