@@ -1,2 +1,3 @@
-# Finance_Market_Website
-This project is done under the Full Stack project assessment for session 2020-2021.
+# The financial Hub
+
+Website link : https://mystery01092000.github.io/Finance_Market_Website/
