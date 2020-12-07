@@ -7,19 +7,20 @@
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
-    }
-    
-    html {
-        font-size: 62.5%;
-    }
-    
-    :root {
-        --primary-color: #2b81e4;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #2b81e4;
     --secondary-color: #eee;
     --white-color: #fff;
     --grey-color: #555;
     --light-grey-color: #777;
 }
+
 .center {
     display: flex;
     justify-content: center;
@@ -51,6 +52,7 @@
     left: 6.5rem;
     z-index: 200;
 }
+
 .navbar-icon .line {
     height: 0.2rem;
     width: 3.5rem;
@@ -79,6 +81,7 @@
     opacity: 1;
     transition: bottom 0.5s, opacity 0.2s 0.25s;
 }
+
 .navbar {
     width: 100%;
     height: 100%;
@@ -153,27 +156,14 @@
 .change .nav-link:nth-child(5) {
     transition: top 1s 1.2s, opacity 0.3s, color 0.3s;
 }
-    /* End of Navbar */
+/* End of Navbar */
+
 
 /* Stories */
 .stories {
     padding: 10rem 0;
     position: relative;
-}
-
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
-}
-
-.bg-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(../Images/pexels-karolina-grabowska-4386158.jpg);
 }
 
 .stories-wrapper {
@@ -247,30 +237,22 @@
     letter-spacing: 0.3rem;
     transition: all 0.2s;
 }
-  
+
 .footer-link:hover {
     transform: rotate(-10deg);
     box-shadow: 0 2rem 3rem #000;
 }
-  
+
 .footer-paragraph {
     text-align: center;
     font-size: 1.5rem;
     color: var(--secondary-color);
     letter-spacing: 0.2rem;
     margin-top: 5rem;
-<<<<<<< HEAD
-  }
-  /* End of Footer */
-
-
-
-
-=======
 }
-  /* End of Footer */
+/* End of Footer */
 
-  @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     .cards-wrapper {
     flex-direction: column;
     align-items: center;
@@ -394,4 +376,3 @@
     font-size: 45%;
     }
 }
->>>>>>> 20272a8a6c44fd8ad93b5919bb188aca5415407a
